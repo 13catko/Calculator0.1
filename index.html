@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2024</title>
+</head>
+
+<body>
+
+</body>
+
+<script>
+
+
+
+alert('угадай загадку Висит груша нелюзя скушать');
+
+let trueCount = 5;
+
+for(let i = 0; i < trueCount; i++) {
+
+  const answer = "Лампа" || "лампа";
+  const userAnswer = prompt("Напишите ответ");
+  
+  if (answer == userAnswer) {
+    alert("поздравляю это правильный ответ: " + answer)
+    break;
+  } else {
+    trueCount--;
+    alert('попробуйте еще раз у вас осталось попыток: ' + trueCount)
+  }
+
+
+}
+
+
+
+
+
+
+
+
+</script>
+
+</html>
